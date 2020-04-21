@@ -1,0 +1,40 @@
+@import "../../sass/variables";
+@import "../../sass/media-query";
+@import "../../sass/color";
+
+.scrollTop {
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  right: 2rem;
+  bottom: 10rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0.4rem;
+
+  .scroll-arrow {
+    width: 2rem;
+    height: 2rem;
+    filter: invert(83%) sepia(100%) saturate(16%) hue-rotate(222deg)
+      brightness(106%) contrast(103%);
+  }
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

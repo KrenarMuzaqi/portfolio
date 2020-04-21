@@ -1,0 +1,67 @@
+/*MARGINS*/
+.m-0-auto {
+  margin: 0 auto;
+}
+.m-t-40 {
+  margin-top: 4rem;
+}
+.m-t-30 {
+  margin-top: 3rem;
+}
+.m-t-16 {
+  margin-top: 1.6rem;
+}
+.m-t-12 {
+  margin-top: 1.2rem;
+}
+.m-t-8 {
+  margin-top: 0.8rem;
+}
+
+/*PADDINGS*/
+
+/*PARAGRAPHS*/
+
+.paragraph-26 {
+  font-size: $font-size-26;
+
+  @media #{$mq-450-down} {
+    font-size: $font-size-20;
+  }
+}
+.paragraph-24 {
+  font-size: $font-size-24;
+
+  @media #{$mq-450-down} {
+    font-size: $font-size-18;
+  }
+}
+.paragraph-18 {
+  font-size: $font-size-18;
+}
+.paragraph-16 {
+  font-size: $font-size-16;
+}
+.paragraph-14 {
+  font-size: $font-size-14;
+}
+.paragraph-12 {
+  font-size: $font-size-12;
+}
+
+/*OTHERS*/
+.d-none {
+  display: none !important;
+}
+
+.d-flex-row {
+  display: flex !important;
+}
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-bold {
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+@import "../../sass/variables";
+@import "../../sass/media-query";
+@import "../../sass/color";
+
+.btn {
+  background-color: $primary-text-col;
+  padding: 1rem 1.6rem;
+  color: $white;
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+html,
+body {
+  font-size: 62.5% !important;
+  color: $primary-text-col;
+  // font-family: "Roboto Mono", monospace;
+  font-family: "Nunito Sans", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-text-col;
+}

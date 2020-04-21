@@ -1,0 +1,98 @@
+@import "../../sass/variables";
+@import "../../sass/media-query";
+@import "../../sass/color";
+
+.services {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+  background-color: #f2f2f2;
+
+  &-container {
+    max-width: 104.4rem;
+    width: 100%;
+    height: auto;
+    margin: 0 2.4rem;
+
+    .title {
+      position: relative;
+      font-size: $font-size-36;
+
+      &::before {
+        content: "";
+        width: 5rem;
+        height: 0.4rem;
+        background-color: $primary-text-col;
+        position: absolute;
+        left: 0;
+        bottom: -0.5rem;
+        z-index: 1;
+      }
+      @media #{$mq-450-down} {
+        font-size: $font-size-28;
+      }
+    }
+
+    .services-boxs {
+      width: 100%;
+      height: auto;
+      margin-top: 6rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+
+      &--box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: default;
+        border-radius: 1rem;
+        padding: 2rem;
+        background-color: $white;
+        box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+          6px 6px 20px rgba(0, 0, 0, 0.1);
+
+        .box-title {
+          font-size: $font-size-24;
+        }
+
+        .box-desc {
+          font-size: $font-size-18;
+        }
+
+        &:hover {
+          box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 0.5),
+            inset 6px 6px 20px rgba(0, 0, 0, 0.05);
+        }
+        &:hover .service-icon,
+        &:hover .box-title,
+        &:hover .box-desc {
+          transform: scale(0.98);
+        }
+
+        .service-icon {
+          width: 4rem;
+          margin-bottom: 1.2rem;
+        }
+
+        .paragraph-14 {
+          text-align: center;
+        }
+      }
+
+      @media #{$mq-450-down} {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    @media #{$mq-450-down} {
+      margin: 0 2rem;
+    }
+  }
+  @media #{$mq-450-down} {
+    padding-top: 6rem;
+  }
+}
