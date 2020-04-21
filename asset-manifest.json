@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.dd170f0c.chunk.css",
+    "main.js": "/portfolio/static/js/main.1440d8cb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1440d8cb.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.9612f1a5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.9612f1a5.js.map",
+    "static/js/2.9ef553a1.chunk.js": "/portfolio/static/js/2.9ef553a1.chunk.js",
+    "static/js/2.9ef553a1.chunk.js.map": "/portfolio/static/js/2.9ef553a1.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.4326396e5bffae63f8bd2dfbc25fed2a.js": "/portfolio/precache-manifest.4326396e5bffae63f8bd2dfbc25fed2a.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.dd170f0c.chunk.css.map": "/portfolio/static/css/main.dd170f0c.chunk.css.map",
+    "static/js/2.9ef553a1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9ef553a1.chunk.js.LICENSE.txt",
+    "static/media/about-img.jpg": "/portfolio/static/media/about-img.035cce00.jpg",
+    "static/media/carton-grey.4a6087c7.svg": "/portfolio/static/media/carton-grey.4a6087c7.svg",
+    "static/media/email-development.svg": "/portfolio/static/media/email-development.2c0cb899.svg",
+    "static/media/email-icon.svg": "/portfolio/static/media/email-icon.cef8d2fe.svg",
+    "static/media/facebook-icon.svg": "/portfolio/static/media/facebook-icon.ab92ad6d.svg",
+    "static/media/instagram-icon.svg": "/portfolio/static/media/instagram-icon.09c66596.svg",
+    "static/media/linkedin-icon.svg": "/portfolio/static/media/linkedin-icon.380d97a6.svg",
+    "static/media/mkblack.5fd88e3a.svg": "/portfolio/static/media/mkblack.5fd88e3a.svg",
+    "static/media/mkwhite.2fc35be6.svg": "/portfolio/static/media/mkwhite.2fc35be6.svg",
+    "static/media/responsive-design.svg": "/portfolio/static/media/responsive-design.99e9d0f4.svg",
+    "static/media/scrollArrow.svg": "/portfolio/static/media/scrollArrow.98d71778.svg",
+    "static/media/support.svg": "/portfolio/static/media/support.f1841151.svg",
+    "static/media/twitter-icon.svg": "/portfolio/static/media/twitter-icon.88c38bdc.svg",
+    "static/media/web-development.svg": "/portfolio/static/media/web-development.9d30345f.svg",
+    "static/media/working-portfolio.svg": "/portfolio/static/media/working-portfolio.60250ced.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9612f1a5.js",
+    "static/js/2.9ef553a1.chunk.js",
+    "static/css/main.dd170f0c.chunk.css",
+    "static/js/main.1440d8cb.chunk.js"
+  ]
+}
