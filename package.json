@@ -19,7 +19,7 @@
     "slick-carousel": "^1.8.1",
     "smoothscroll-polyfill": "^0.4.4"
   },
-  "homepage": "https://krenarmuzaqi.github.io/portfolio",
+  "homepage": "https://github.com/KrenarMuzaqi/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
