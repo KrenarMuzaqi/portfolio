@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import { animated, useSpring } from "react-spring";
+import { Link } from "react-router-dom";
 
 import { useCurrentWitdh } from "../../media-query/media-query";
 
@@ -48,13 +48,13 @@ const Navbar = () => {
           >
             Services
           </a>
-          <a
-            href="#portfolio"
+          <Link
+            to="#portfolio"
             className="nav-link"
             onClick={() => toggleHandler()}
           >
             Portfolio
-          </a>
+          </Link>
           <a
             href="#contact"
             className="nav-link"
