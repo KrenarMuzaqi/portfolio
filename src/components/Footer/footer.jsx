@@ -22,12 +22,14 @@ const Footer = () => {
         <div className="footer-icons">
           <a
             href="https://www.facebook.com/krenar.muzaqi"
+            target="_blank"
             className="footer-icons--link"
           >
             <img src={FbIcon} alt="Facebook img" className="footer-icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/krenarmuzaqi/"
+            target="_blank"
             className="footer-icons--link"
           >
             <img
@@ -38,18 +40,21 @@ const Footer = () => {
           </a>
           <a
             href="https://www.instagram.com/krenar.dev/"
+            target="_blank"
             className="footer-icons--link"
           >
             <img src={IgIcon} alt="Instagram img" className="footer-icon" />
           </a>
           <a
             href="https://twitter.com/KrenarMuzaqi"
+            target="_blank"
             className="footer-icons--link"
           >
             <img src={TwitterIcon} alt="Twitter img" className="footer-icon" />
           </a>
           <a
             href="mailto:krenarmuzaqi@gmail.com"
+            target="_blank"
             className="footer-icons--link"
           >
             <img src={EmailIcon} alt="Email img" className="footer-icon" />

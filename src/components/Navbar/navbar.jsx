@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 import { useCurrentWitdh } from "../../media-query/media-query";
 
@@ -21,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="navbar-wrapper">
       <nav className="navbar">
-        <a href="#header" className="navbar-logo">
+        <a href="#" className="navbar-logo">
           {width < 450 && isToggled && isNavOpen ? (
             <LogoBlack className="navbar-logo--img" />
           ) : (
@@ -48,13 +47,13 @@ const Navbar = () => {
           >
             Services
           </a>
-          <Link
-            to="#portfolio"
+          <a
+            href="#portfolio"
             className="nav-link"
             onClick={() => toggleHandler()}
           >
             Portfolio
-          </Link>
+          </a>
           <a
             href="#contact"
             className="nav-link"
