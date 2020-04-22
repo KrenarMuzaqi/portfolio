@@ -1,6 +1,6 @@
 import React from "react";
 
-import AboutImage from "../../assets/images/about-img.jpg";
+import AboutImage from "../../assets/images/about-img.webp";
 
 import "./_about.scss";
 
