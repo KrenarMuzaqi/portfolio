@@ -20,23 +20,38 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-icons">
-          <a href="#" className="footer-icons--link">
+          <a
+            href="https://www.facebook.com/krenar.muzaqi"
+            className="footer-icons--link"
+          >
             <img src={FbIcon} alt="Facebook img" className="footer-icon" />
           </a>
-          <a href="#" className="footer-icons--link">
+          <a
+            href="https://www.linkedin.com/in/krenarmuzaqi/"
+            className="footer-icons--link"
+          >
             <img
               src={LinkedinIcon}
               alt="Linkedin img"
               className="footer-icon"
             />
           </a>
-          <a href="#" className="footer-icons--link">
+          <a
+            href="https://www.instagram.com/krenar.dev/"
+            className="footer-icons--link"
+          >
             <img src={IgIcon} alt="Instagram img" className="footer-icon" />
           </a>
-          <a href="#" className="footer-icons--link">
+          <a
+            href="https://twitter.com/KrenarMuzaqi"
+            className="footer-icons--link"
+          >
             <img src={TwitterIcon} alt="Twitter img" className="footer-icon" />
           </a>
-          <a href="#" className="footer-icons--link">
+          <a
+            href="mailto:krenarmuzaqi@gmail.com"
+            className="footer-icons--link"
+          >
             <img src={EmailIcon} alt="Email img" className="footer-icon" />
           </a>
         </div>

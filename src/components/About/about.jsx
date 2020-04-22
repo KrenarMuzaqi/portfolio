@@ -1,16 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 import AboutImage from "../../assets/images/about-img.jpg";
-import Button from "../Buttons/custom-button";
 
 import "./_about.scss";
 
 const About = () => {
-  // const [showMore, setShowMore] = useState(false);
-
-  // const handleShowMore = () => {
-  //   setShowMore(!showMore);
-  // };
   return (
     <div className="about" id="about">
       <div className="about-container">

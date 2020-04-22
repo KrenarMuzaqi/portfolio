@@ -7,7 +7,6 @@
 
 .customized-scroll::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 20px rgb(0, 0, 0);
-  /* border-radius: 10px; */
 }
 
 .customized-scroll::-webkit-scrollbar-thumb {
