@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0a72e2c462a9cf3f90acd6485813566",
+    "revision": "c5d8ca933bc7c4667635c4df9cf5b7e1",
     "url": "/index.html"
   },
   {
-    "revision": "455a1cfcfeace5b87a21",
-    "url": "/static/css/main.e379aba0.chunk.css"
+    "revision": "f25ac34ae3963fcc9eff",
+    "url": "/static/css/main.4be6d0be.chunk.css"
   },
   {
-    "revision": "724f4551295ef7ebce53",
-    "url": "/static/js/2.c4079634.chunk.js"
+    "revision": "69e1890807e7acdbe64d",
+    "url": "/static/js/2.3f7b785c.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.c4079634.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3f7b785c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "455a1cfcfeace5b87a21",
-    "url": "/static/js/main.d9a7b4cd.chunk.js"
+    "revision": "f25ac34ae3963fcc9eff",
+    "url": "/static/js/main.4db6f373.chunk.js"
   },
   {
     "revision": "681e8bfa70a01378f04b",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/email-icon.cef8d2fe.svg"
   },
   {
+    "revision": "2f06e07cc90a4918180ca729e98d3070",
+    "url": "/static/media/endrit-gashi.2f06e07c.jpg"
+  },
+  {
     "revision": "ab92ad6d992f203adfc29fddf0efd3e6",
     "url": "/static/media/facebook-icon.ab92ad6d.svg"
   },
@@ -52,12 +56,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin-icon.380d97a6.svg"
   },
   {
+    "revision": "1b430fe927077f8176dab88e4e7f4cc7",
+    "url": "/static/media/lirije-uka.1b430fe9.jpg"
+  },
+  {
     "revision": "5fd88e3a8eac8dac442825fa730d664c",
     "url": "/static/media/mkblack.5fd88e3a.svg"
   },
   {
     "revision": "2fc35be6398e75aee200a189d6639b02",
     "url": "/static/media/mkwhite.2fc35be6.svg"
+  },
+  {
+    "revision": "2db62ab67c056a1e7f80f5be1a3e2c74",
+    "url": "/static/media/muhamet-humolli.2db62ab6.jpg"
+  },
+  {
+    "revision": "9e233dab7dba265a6deec9b21a30c48b",
+    "url": "/static/media/qlirim-asllani.9e233dab.jpg"
+  },
+  {
+    "revision": "be2455c0fb98666bee88210f7e5e1964",
+    "url": "/static/media/qëndrim-pllana.be2455c0.jpg"
   },
   {
     "revision": "99e9d0f4617f92dbde39f61dfa247c30",
