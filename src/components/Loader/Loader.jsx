@@ -11,7 +11,7 @@ const Loader = () => {
         <div></div>
         <div></div>
         <div>
-          <Logo class="r-logo" alt="logo img" />
+          <Logo class="km-logo" alt="logo img" />
         </div>
       </div>
     </div>
