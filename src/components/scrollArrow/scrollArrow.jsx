@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import smoothscroll from "smoothscroll-polyfill";
+
 import scrollArrow from "../../assets/icons/scrollArrow.svg";
 import "./_scrollArrow.scss";
 
@@ -19,6 +21,8 @@ const ScrollArrow = () => {
   };
 
   window.addEventListener("scroll", checkScrollTop);
+
+  smoothscroll.polyfill();
 
   return (
     <div

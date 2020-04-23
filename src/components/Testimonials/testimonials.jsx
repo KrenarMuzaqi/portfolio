@@ -28,6 +28,7 @@ const Testimonials = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
+    pauseOnHover: true,
   };
 
   if (width > 1024) {

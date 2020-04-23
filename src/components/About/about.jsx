@@ -63,7 +63,7 @@ const About = () => {
 
             <div className="btn-holder">
               <a
-                href="https://drive.google.com/open?id=1ZpT-lTbD-X5FhZvn4d3oXV64PjZUhMdQ"
+                href="https://drive.google.com/open?id=13IA74DlxZIAsvUI1sr9pPxi5gwWYz7C-"
                 target="_blank"
                 className="resume-btn"
               >

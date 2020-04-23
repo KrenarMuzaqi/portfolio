@@ -18,7 +18,8 @@
     "react-scroll": "^1.7.16",
     "react-slick": "^0.25.2",
     "react-spring": "^8.0.27",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "homepage": "https://krenarmuzaqi.com",
   "scripts": {
