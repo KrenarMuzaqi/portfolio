@@ -2,26 +2,35 @@ import React from "react";
 
 import Slider from "react-slick";
 
+import { useCurrentWitdh } from "../../media-query/media-query";
+
 import QUOTES_DATA from "./testimonials-data";
 
 import "./_testimonials.scss";
 
 const Testimonials = () => {
   const quoutes = QUOTES_DATA;
+  const width = useCurrentWitdh();
+
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+  };
+
+  if (width > 1024) {
+    sliderSettings.autoplay = true;
+  }
 
   return (
     <div className="testimonials">
       <div className="testimonials-content">
         <h1 className="title">Testimonials</h1>
         <div className="slider">
-          <Slider
-            dots={true}
-            infinite={true}
-            speed={500}
-            slidesToShow={1}
-            slidesToScroll={1}
-            autoplay
-          >
+          <Slider {...sliderSettings}>
             <div className="slider-box">
               <blockquote>{quoutes[0].qoute}</blockquote>
               <p className="name">{quoutes[0].fullName}</p>
