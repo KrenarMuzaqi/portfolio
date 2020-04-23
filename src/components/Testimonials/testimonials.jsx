@@ -35,7 +35,7 @@ const Testimonials = () => {
   }
 
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1000, once: true });
   }, []);
 
   return (
@@ -44,11 +44,7 @@ const Testimonials = () => {
         <h1 className="title" data-aos="fade-right">
           Testimonials
         </h1>
-        <div
-          className="slider"
-          data-aos="fade-left"
-          data-aos-anchor-placement="center-center"
-        >
+        <div className="slider" data-aos="fade-left">
           <Slider {...sliderSettings}>
             <div className="slider-box">
               <blockquote>{quoutes[0].qoute}</blockquote>

@@ -12,7 +12,7 @@ import "./_header.scss";
 
 const Header = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1000, once: true });
   }, []);
 
   return (

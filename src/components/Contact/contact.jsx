@@ -10,7 +10,7 @@ import "./_contact.scss";
 
 const Contact = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1000, once: true });
   }, []);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

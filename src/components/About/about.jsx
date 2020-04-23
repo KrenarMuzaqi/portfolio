@@ -9,7 +9,7 @@ import "./_about.scss";
 
 const About = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1000, once: true });
   }, []);
   return (
     <div className="about" id="about">

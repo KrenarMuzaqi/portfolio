@@ -54,7 +54,6 @@
           padding-top: 4rem;
           background-color: $white;
           border-radius: 0.4rem;
-          max-height: 50rem;
 
           .slick-track {
             .slick-slide {
@@ -78,9 +77,6 @@
                 padding: 0;
               }
             }
-          }
-          @media #{$mq-768-down} {
-            max-height: 100%;
           }
         }
 

@@ -14,7 +14,7 @@ import "./_footer.scss";
 
 const Footer = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000, once: true });
   }, []);
   return (
     <div className="footer" id="footer">

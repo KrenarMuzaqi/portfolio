@@ -9,7 +9,7 @@ import "./_portfolio.scss";
 
 const Portfolio = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1000, once: true });
   }, []);
   return (
     <div className="portfolio" id="portfolio">

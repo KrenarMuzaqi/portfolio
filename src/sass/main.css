@@ -996,7 +996,6 @@ a {
   padding-top: 4rem;
   background-color: #fff;
   border-radius: 0.4rem;
-  max-height: 50rem;
 }
 
 .testimonials-content .slider .slick-slider .slick-list .slick-track .slick-slide div {
@@ -1028,12 +1027,6 @@ a {
 @media screen and (max-width: 450px) {
   .testimonials-content .slider .slick-slider .slick-list .slick-track .slick-active {
     padding: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .testimonials-content .slider .slick-slider .slick-list {
-    max-height: 100%;
   }
 }
 

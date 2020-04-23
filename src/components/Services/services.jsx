@@ -12,7 +12,7 @@ import "./_services.scss";
 
 const Services = () => {
   useEffect(() => {
-    Aos.init({ duration: 500 });
+    Aos.init({ duration: 1000, once: true });
   }, []);
   return (
     <div className="services" id="services">
