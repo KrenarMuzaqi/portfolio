@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import AboutImage from "../../assets/images/about-img.jpg";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import "./_about.scss";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className="about" id="about">
       <div className="about-container">
-        <h1 className="title">About Me</h1>
-        <div className="about-container--text">
+        <h1 className="title" data-aos="fade-down-right">
+          About Me
+        </h1>
+        <div className="about-container--text" data-aos="fade-up-right">
           <div>
             <p className="paragraph-16">
               My name is Krenar. I'am a Frontend Developer based in München,
@@ -59,11 +67,16 @@ const About = () => {
                 target="_blank"
                 className="resume-btn"
               >
-                VIEW CV
+                View CV
               </a>
             </div>
           </div>
-          <img src={AboutImage} alt="Krenar Img" className="about-img" />
+          <img
+            src={AboutImage}
+            alt="Krenar Img"
+            className="about-img"
+            data-aos="fade-up-left"
+          />
         </div>
       </div>
     </div>

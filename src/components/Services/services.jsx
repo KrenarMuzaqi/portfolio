@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import DevelopmentIcon from "../../assets/icons/web-development.svg";
 import ResponsiveIcon from "../../assets/icons/responsive-design.svg";
@@ -8,13 +11,18 @@ import SupportIcon from "../../assets/icons/support.svg";
 import "./_services.scss";
 
 const Services = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className="services" id="services">
       <div className="services-container">
-        <h1 className="title">Services</h1>
+        <h1 className="title" data-aos="fade-down-right">
+          Services
+        </h1>
 
         <div className="services-boxs">
-          <div className="services-boxs--box">
+          <div className="services-boxs--box" data-aos="zoom-in">
             <img
               src={DevelopmentIcon}
               className="service-icon"
@@ -25,7 +33,7 @@ const Services = () => {
               Able to create beautiful sites by using HTML, CSS, JS
             </p>
           </div>
-          <div className="services-boxs--box">
+          <div className="services-boxs--box" data-aos="zoom-in-up">
             <img
               src={ResponsiveIcon}
               className="service-icon"
@@ -36,7 +44,7 @@ const Services = () => {
               Able to create mobile responsive sites at a professional level
             </p>
           </div>
-          <div className="services-boxs--box">
+          <div className="services-boxs--box" data-aos="zoom-in-down">
             <img
               src={EmailIcon}
               className="service-icon"
@@ -47,7 +55,7 @@ const Services = () => {
               Able to create HTML EMAILS quickly and effective
             </p>
           </div>
-          <div className="services-boxs--box">
+          <div className="services-boxs--box" data-aos="zoom-in-left">
             <img
               src={SupportIcon}
               className="service-icon"

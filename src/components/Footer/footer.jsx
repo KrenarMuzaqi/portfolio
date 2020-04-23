@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import { ReactComponent as LogoWhite } from "../../assets/images/mkwhite.svg";
 import FbIcon from "../../assets/icons/facebook-icon.svg";
@@ -10,6 +13,9 @@ import EmailIcon from "../../assets/icons/email-icon.svg";
 import "./_footer.scss";
 
 const Footer = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="footer" id="footer">
       <div className="footer-content">
@@ -21,6 +27,7 @@ const Footer = () => {
         </div>
         <div className="footer-icons">
           <a
+            data-aos="flip-left"
             href="https://www.facebook.com/krenar.muzaqi"
             target="_blank"
             className="footer-icons--link"
@@ -28,6 +35,7 @@ const Footer = () => {
             <img src={FbIcon} alt="Facebook img" className="footer-icon" />
           </a>
           <a
+            data-aos="flip-left"
             href="https://www.linkedin.com/in/krenarmuzaqi/"
             target="_blank"
             className="footer-icons--link"
@@ -39,6 +47,7 @@ const Footer = () => {
             />
           </a>
           <a
+            data-aos="flip-left"
             href="https://www.instagram.com/krenar.dev/"
             target="_blank"
             className="footer-icons--link"
@@ -46,6 +55,7 @@ const Footer = () => {
             <img src={IgIcon} alt="Instagram img" className="footer-icon" />
           </a>
           <a
+            data-aos="flip-left"
             href="https://twitter.com/KrenarMuzaqi"
             target="_blank"
             className="footer-icons--link"
@@ -53,6 +63,7 @@ const Footer = () => {
             <img src={TwitterIcon} alt="Twitter img" className="footer-icon" />
           </a>
           <a
+            data-aos="flip-left"
             href="mailto:krenarmuzaqi@gmail.com"
             target="_blank"
             className="footer-icons--link"

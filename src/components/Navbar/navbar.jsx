@@ -36,7 +36,7 @@ const Navbar = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={100}
             duration={500}
             className="nav-link"
             onClick={() => toggleHandler()}

@@ -1,11 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { FormInput, FormTextarea } from "../form-input-component/form-input";
 import Button from "../Buttons/custom-button";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import "./_contact.scss";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -13,8 +19,10 @@ const Contact = () => {
   return (
     <div className="contact " id="contact">
       <div className="contact-content">
-        <h1 className="title">Let's work together.</h1>
-        <p className="paragraph-16 subtitle">
+        <h1 className="title" data-aos="fade-down-right">
+          Let's work together.
+        </h1>
+        <p className="paragraph-16 subtitle" data-aos="fade-down-right">
           Use the form below, or hit me up via email at{" "}
           <a href="mailto:krenarmuzaqi" className="email">
             krenarmuzaqi@gmail.com
@@ -22,6 +30,7 @@ const Contact = () => {
         </p>
 
         <form
+          data-aos="fade-up"
           className="contact-form"
           id="contact-form"
           action="https://formspree.io/krenarmuzaqi@gmail.com"

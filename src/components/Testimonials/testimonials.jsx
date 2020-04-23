@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Slider from "react-slick";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import { useCurrentWitdh } from "../../media-query/media-query";
 
@@ -29,14 +32,23 @@ const Testimonials = () => {
 
   if (width > 1024) {
     sliderSettings.autoplay = true;
-    console.log("Autoplay set to True: ", width);
   }
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
 
   return (
     <div className="testimonials">
       <div className="testimonials-content">
-        <h1 className="title">Testimonials</h1>
-        <div className="slider">
+        <h1 className="title" data-aos="fade-down-right">
+          Testimonials
+        </h1>
+        <div
+          className="slider"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center"
+        >
           <Slider {...sliderSettings}>
             <div className="slider-box">
               <blockquote>{quoutes[0].qoute}</blockquote>
