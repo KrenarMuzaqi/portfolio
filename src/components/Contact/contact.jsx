@@ -19,10 +19,10 @@ const Contact = () => {
   return (
     <div className="contact " id="contact">
       <div className="contact-content">
-        <h1 className="title" data-aos="fade-down-right">
+        <h1 className="title" data-aos="fade-right">
           Let's work together.
         </h1>
-        <p className="paragraph-16 subtitle" data-aos="fade-down-right">
+        <p className="paragraph-16 subtitle" data-aos="fade-left">
           Use the form below, or hit me up via email at{" "}
           <a href="mailto:krenarmuzaqi" className="email">
             krenarmuzaqi@gmail.com
@@ -30,7 +30,7 @@ const Contact = () => {
         </p>
 
         <form
-          data-aos="fade-up"
+          data-aos="fade-left"
           className="contact-form"
           id="contact-form"
           action="https://formspree.io/krenarmuzaqi@gmail.com"
@@ -60,11 +60,6 @@ const Contact = () => {
             required
           ></FormTextarea>
           <Button>Submit</Button>
-          <input
-            type="hidden"
-            name="_next"
-            value="../../../public/thank.html"
-          />
         </form>
       </div>
     </div>

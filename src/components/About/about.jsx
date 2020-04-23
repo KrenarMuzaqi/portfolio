@@ -14,10 +14,10 @@ const About = () => {
   return (
     <div className="about" id="about">
       <div className="about-container">
-        <h1 className="title" data-aos="fade-down-right">
+        <h1 className="title" data-aos="fade-right">
           About Me
         </h1>
-        <div className="about-container--text" data-aos="fade-up-right">
+        <div className="about-container--text" data-aos="fade-right">
           <div>
             <p className="paragraph-16">
               My name is Krenar. I'am a Frontend Developer based in München,
@@ -75,7 +75,7 @@ const About = () => {
             src={AboutImage}
             alt="Krenar Img"
             className="about-img"
-            data-aos="fade-up-left"
+            data-aos="fade-left"
           />
         </div>
       </div>

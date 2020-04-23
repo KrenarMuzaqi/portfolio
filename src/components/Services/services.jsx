@@ -12,17 +12,17 @@ import "./_services.scss";
 
 const Services = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 500 });
   }, []);
   return (
     <div className="services" id="services">
       <div className="services-container">
-        <h1 className="title" data-aos="fade-down-right">
+        <h1 className="title" data-aos="fade-right">
           Services
         </h1>
 
         <div className="services-boxs">
-          <div className="services-boxs--box" data-aos="zoom-in">
+          <div className="services-boxs--box" data-aos="fade-right">
             <img
               src={DevelopmentIcon}
               className="service-icon"
@@ -33,7 +33,7 @@ const Services = () => {
               Able to create beautiful sites by using HTML, CSS, JS
             </p>
           </div>
-          <div className="services-boxs--box" data-aos="zoom-in-up">
+          <div className="services-boxs--box" data-aos="fade-left">
             <img
               src={ResponsiveIcon}
               className="service-icon"
@@ -44,7 +44,7 @@ const Services = () => {
               Able to create mobile responsive sites at a professional level
             </p>
           </div>
-          <div className="services-boxs--box" data-aos="zoom-in-down">
+          <div className="services-boxs--box" data-aos="fade-right">
             <img
               src={EmailIcon}
               className="service-icon"
@@ -55,7 +55,7 @@ const Services = () => {
               Able to create HTML EMAILS quickly and effective
             </p>
           </div>
-          <div className="services-boxs--box" data-aos="zoom-in-left">
+          <div className="services-boxs--box" data-aos="fade-left">
             <img
               src={SupportIcon}
               className="service-icon"

@@ -79,6 +79,9 @@
               }
             }
           }
+          @media #{$mq-768-down} {
+            max-height: 100%;
+          }
         }
 
         .slick-arrow {
@@ -175,6 +178,7 @@
         .date {
           margin-top: 0.8rem;
           color: #bfbfbf;
+          font-size: $font-size-14;
         }
       }
     }

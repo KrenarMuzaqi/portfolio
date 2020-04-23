@@ -19,15 +19,14 @@ const Footer = () => {
   return (
     <div className="footer" id="footer">
       <div className="footer-content">
-        <div className="footer-logo">
+        <div className="footer-logo" data-aos="zoom-in">
           <LogoWhite className="footer-logo--img" />
           <p className="paragraph-16 footer-subtitle">
             Living, learning, & leveling up one day at a time.
           </p>
         </div>
-        <div className="footer-icons">
+        <div className="footer-icons" data-aos="zoom-in">
           <a
-            data-aos="flip-left"
             href="https://www.facebook.com/krenar.muzaqi"
             target="_blank"
             className="footer-icons--link"
@@ -35,7 +34,6 @@ const Footer = () => {
             <img src={FbIcon} alt="Facebook img" className="footer-icon" />
           </a>
           <a
-            data-aos="flip-left"
             href="https://www.linkedin.com/in/krenarmuzaqi/"
             target="_blank"
             className="footer-icons--link"
@@ -47,7 +45,6 @@ const Footer = () => {
             />
           </a>
           <a
-            data-aos="flip-left"
             href="https://www.instagram.com/krenar.dev/"
             target="_blank"
             className="footer-icons--link"
@@ -55,7 +52,6 @@ const Footer = () => {
             <img src={IgIcon} alt="Instagram img" className="footer-icon" />
           </a>
           <a
-            data-aos="flip-left"
             href="https://twitter.com/KrenarMuzaqi"
             target="_blank"
             className="footer-icons--link"
@@ -63,7 +59,6 @@ const Footer = () => {
             <img src={TwitterIcon} alt="Twitter img" className="footer-icon" />
           </a>
           <a
-            data-aos="flip-left"
             href="mailto:krenarmuzaqi@gmail.com"
             target="_blank"
             className="footer-icons--link"
@@ -71,7 +66,7 @@ const Footer = () => {
             <img src={EmailIcon} alt="Email img" className="footer-icon" />
           </a>
         </div>
-        <div className="footer-copyright">
+        <div className="footer-copyright" data-aos="zoom-in">
           <p className="paragraph-12">
             Designed and built with ❤ by Krenar Muzaqi © 2020
           </p>

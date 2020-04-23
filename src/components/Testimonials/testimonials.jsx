@@ -41,12 +41,12 @@ const Testimonials = () => {
   return (
     <div className="testimonials">
       <div className="testimonials-content">
-        <h1 className="title" data-aos="fade-down-right">
+        <h1 className="title" data-aos="fade-right">
           Testimonials
         </h1>
         <div
           className="slider"
-          data-aos="fade-up"
+          data-aos="fade-left"
           data-aos-anchor-placement="center-center"
         >
           <Slider {...sliderSettings}>

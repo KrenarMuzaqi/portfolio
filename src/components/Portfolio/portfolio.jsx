@@ -14,16 +14,16 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       <div className="portfolio-content">
-        <h1 className="title" data-aos="fade-down-right">
+        <h1 className="title" data-aos="fade-right">
           Portfolio
         </h1>
         <img
           src={WorkingSvg}
           alt="wokring img"
           className="porfolio-img"
-          data-aos="flip-up"
+          data-aos="fade-left"
         />
-        <p className="coming-soon" data-aos="flip-down">
+        <p className="coming-soon" data-aos="fade-left">
           Coming soon...
         </p>
       </div>

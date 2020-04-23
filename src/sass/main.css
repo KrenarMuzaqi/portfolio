@@ -1031,6 +1031,12 @@ a {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .testimonials-content .slider .slick-slider .slick-list {
+    max-height: 100%;
+  }
+}
+
 .testimonials-content .slider .slick-slider .slick-arrow {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1133,6 +1139,7 @@ a {
 .testimonials-content .slider-box .date {
   margin-top: 0.8rem;
   color: #bfbfbf;
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 768px) {
