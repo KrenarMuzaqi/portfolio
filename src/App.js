@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import smoothscroll from "smoothscroll-polyfill";
 
@@ -11,25 +11,46 @@ import Testimonials from "./components/Testimonials/testimonials";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 import ScrollArrow from "./components/scrollArrow/scrollArrow";
+import Loader from "./components/Loader/Loader";
 
 import "./App.css";
 
-function App() {
-  // kick off the polyfill!
-  smoothscroll.polyfill();
-  return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <About />
-      <Services />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
-      <ScrollArrow />
-    </div>
-  );
+class App extends Component {
+  state = {
+    isLoading: true,
+  };
+
+  componentDidMount = () => {
+    setTimeout(() => {
+      this.setState({
+        isLoading: false,
+      });
+    }, 2000);
+  };
+
+  render() {
+    smoothscroll.polyfill();
+
+    return (
+      <div className="App">
+        {this.state.isLoading ? (
+          <Loader />
+        ) : (
+          <div>
+            <Navbar />
+            <Header />
+            <About />
+            <Services />
+            <Portfolio />
+            <Testimonials />
+            <Contact />
+            <Footer />
+            <ScrollArrow />
+          </div>
+        )}
+      </div>
+    );
+  }
 }
 
 export default App;
