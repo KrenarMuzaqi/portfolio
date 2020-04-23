@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import smoothscroll from "smoothscroll-polyfill";
+// import smoothscroll from "smoothscroll-polyfill";
 
 import Navbar from "./components/Navbar/navbar";
 import Header from "./components/Header/header";
@@ -29,7 +29,7 @@ class App extends Component {
   };
 
   render() {
-    smoothscroll.polyfill();
+    // smoothscroll.polyfill();
 
     return (
       <div className="App">

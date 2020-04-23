@@ -47,8 +47,9 @@
       margin-top: 3rem;
 
       .email {
+        color: $blue;
         font-weight: bold;
-        border-bottom: 1px solid currentColor1;
+        border-bottom: 1px solid $blue;
       }
     }
 

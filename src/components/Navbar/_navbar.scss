@@ -47,40 +47,42 @@
         right: 0rem !important;
       }
 
+      & > .active {
+        color: $white;
+        font-weight: bold;
+
+        span {
+          position: relative;
+          opacity: 0.7;
+
+          &::before {
+            content: "";
+            width: 2rem;
+            height: 0.3rem;
+            background-color: $blue;
+            position: absolute;
+            left: 0.4rem;
+            bottom: -0.5rem;
+            z-index: 1;
+
+            @media #{$mq-768-down} {
+              left: 0;
+            }
+          }
+        }
+      }
+
       .nav-link {
         position: relative;
         display: inline-block;
         text-transform: uppercase;
         color: $white;
         font-size: $font-size-14;
-
-        &--active {
-          color: $white;
-          font-weight: bold;
-          opacity: 0.7;
-
-          span {
-            position: relative;
-
-            &::before {
-              content: "";
-              width: 2rem;
-              height: 0.3rem;
-              background-color: $blue;
-              position: absolute;
-              left: 0.4rem;
-              bottom: -0.5rem;
-              z-index: 1;
-
-              @media #{$mq-768-down} {
-                left: 0;
-              }
-            }
-          }
-        }
+        cursor: pointer;
 
         &:hover {
-          color: $blue;
+          color: $white;
+          opacity: 0.7;
         }
 
         &::before {

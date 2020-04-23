@@ -209,25 +209,17 @@ a {
   right: 0rem !important;
 }
 
-.navbar-wrapper .navbar-links .nav-link {
-  position: relative;
-  display: inline-block;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 1.4rem;
-}
-
-.navbar-wrapper .navbar-links .nav-link--active {
+.navbar-wrapper .navbar-links > .active {
   color: #fff;
   font-weight: bold;
+}
+
+.navbar-wrapper .navbar-links > .active span {
+  position: relative;
   opacity: 0.7;
 }
 
-.navbar-wrapper .navbar-links .nav-link--active span {
-  position: relative;
-}
-
-.navbar-wrapper .navbar-links .nav-link--active span::before {
+.navbar-wrapper .navbar-links > .active span::before {
   content: "";
   width: 2rem;
   height: 0.3rem;
@@ -239,13 +231,23 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .navbar-wrapper .navbar-links .nav-link--active span::before {
+  .navbar-wrapper .navbar-links > .active span::before {
     left: 0;
   }
 }
 
+.navbar-wrapper .navbar-links .nav-link {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
 .navbar-wrapper .navbar-links .nav-link:hover {
-  color: #008bbe;
+  color: #fff;
+  opacity: 0.7;
 }
 
 .navbar-wrapper .navbar-links .nav-link::before {
@@ -598,7 +600,7 @@ a {
 @media screen and (max-width: 450px) {
   .header-content--text {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem;
   }
 }
 

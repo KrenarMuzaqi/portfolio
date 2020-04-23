@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 import { useCurrentWitdh } from "../../media-query/media-query";
 
@@ -20,47 +21,76 @@ const Navbar = () => {
   return (
     <div className="navbar-wrapper">
       <nav className="navbar">
-        <a href="#" className="navbar-logo">
+        <Link to="header" className="navbar-logo">
           {width < 450 && isToggled && isNavOpen ? (
             <LogoBlack className="navbar-logo--img" />
           ) : (
             <LogoWhite className="navbar-logo--img" />
           )}
-        </a>
+        </Link>
         <div
           className={`navbar-links  ${isToggled ? "navbar-links--active" : ""}`}
         >
-          <a
-            href="#header"
-            className="nav-link nav-link--active"
+          <Link
+            to="header"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            className="nav-link"
             onClick={() => toggleHandler()}
           >
             <span> Home</span>
-          </a>
-          <a href="#about" className="nav-link" onClick={() => toggleHandler()}>
-            About
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
             className="nav-link"
             onClick={() => toggleHandler()}
           >
-            Services
-          </a>
-          <a
-            href="#portfolio"
+            <span>About</span>
+          </Link>
+          <Link
+            to="services"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
             className="nav-link"
             onClick={() => toggleHandler()}
           >
-            Portfolio
-          </a>
-          <a
-            href="#contact"
+            <span>Services</span>
+          </Link>
+          <Link
+            to="portfolio"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
             className="nav-link"
             onClick={() => toggleHandler()}
           >
-            Contact
-          </a>
+            <span>Portfolio</span>
+          </Link>
+          <Link
+            to="contact"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            className="nav-link"
+            onClick={() => toggleHandler()}
+          >
+            <span>Contact</span>
+          </Link>
         </div>
         <div className="toggle-wrapper" onClick={() => toggleHandler()}>
           <div id="nav-icon" className={`${isNavOpen ? "open" : ""}`}>
