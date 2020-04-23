@@ -12,6 +12,7 @@ const QUOTES_DATA = {
       "I rarely come across real talents who stand out like Krenar. I had the pleasure of working with Krenar for almost a year in the same team.Not many people can be so efficient as him.Krenar ability to handle multiple tasks was unlike any I’ve seen before and made a great increase in the productivity level of our team. We all appreciated the wonderful jokes he made to save a boring day. As a team member , Krenar earns my highest recommendation.",
     position: "React Developer",
     date: "28/01/2020",
+    imageUrl: "../../assets/images/endrit-gashi.jpg",
   },
   2: {
     fullName: "Qëndrim Pllana",

@@ -211,7 +211,6 @@ a {
 
 .navbar-wrapper .navbar-links > .active {
   color: #fff;
-  font-weight: bold;
 }
 
 .navbar-wrapper .navbar-links > .active span {
@@ -1109,6 +1108,15 @@ a {
   line-height: 2rem;
   bottom: -1.5rem;
   right: 0.5rem;
+}
+
+.testimonials-content .slider-box .quote-img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 2rem;
+  margin: 2rem auto 0rem auto;
 }
 
 .testimonials-content .slider-box .name {
