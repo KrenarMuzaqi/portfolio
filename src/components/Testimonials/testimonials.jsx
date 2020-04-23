@@ -21,8 +21,12 @@ const Testimonials = () => {
     autoplay: false,
   };
 
+  console.log("Autoplay default: ", sliderSettings);
+
   if (width > 1024) {
     sliderSettings.autoplay = true;
+    console.log("Autoplay set to True: ", width);
+    console.log(sliderSettings);
   }
 
   return (
