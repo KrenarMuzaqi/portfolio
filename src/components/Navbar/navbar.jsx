@@ -32,10 +32,10 @@ const Navbar = () => {
         >
           <a
             href="#header"
-            className="nav-link"
+            className="nav-link nav-link--active"
             onClick={() => toggleHandler()}
           >
-            Home
+            <span> Home</span>
           </a>
           <a href="#about" className="nav-link" onClick={() => toggleHandler()}>
             About

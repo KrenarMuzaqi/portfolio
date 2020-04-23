@@ -22,7 +22,6 @@
     align-items: center;
 
     .footer-logo {
-      max-width: 32rem;
       width: 100%;
       height: auto;
       display: flex;
@@ -37,7 +36,6 @@
       .footer-subtitle {
         color: $white;
         margin-top: 3rem;
-        text-align: center;
         line-height: 1.6;
         opacity: 0.8;
       }
@@ -66,8 +64,8 @@
           width: 2rem;
           height: 2rem;
           line-height: 9rem;
-          filter: invert(9%) sepia(6%) saturate(830%) hue-rotate(188deg)
-            brightness(102%) contrast(91%);
+          filter: invert(52%) sepia(76%) saturate(6334%) hue-rotate(174deg)
+            brightness(95%) contrast(101%);
           transition: 0.2s linear;
 
           @media #{$mq-450-down} {
@@ -78,8 +76,8 @@
 
         &:hover .footer-icon {
           transform: scale(1.2);
-          filter: invert(83%) sepia(100%) saturate(16%) hue-rotate(222deg)
-            brightness(106%) contrast(103%);
+          filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(239deg)
+            brightness(106%) contrast(101%);
         }
 
         &::before {
@@ -87,7 +85,7 @@
           position: absolute;
           width: 120%;
           height: 120%;
-          background-color: $primary-text-col;
+          background-color: $blue;
           transform: rotate(45deg);
           left: -110%;
           top: 90%;

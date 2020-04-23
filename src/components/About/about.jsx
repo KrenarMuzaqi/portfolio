@@ -53,13 +53,15 @@ const About = () => {
             </p>
             <p className="paragraph-14">(Oct. 2013 - Oct. 2019)</p>
 
-            <a
-              href="https://drive.google.com/open?id=1ZpT-lTbD-X5FhZvn4d3oXV64PjZUhMdQ"
-              target="_blank"
-              className="resume-btn"
-            >
-              VIEW CV
-            </a>
+            <div className="btn-holder">
+              <a
+                href="https://drive.google.com/open?id=1ZpT-lTbD-X5FhZvn4d3oXV64PjZUhMdQ"
+                target="_blank"
+                className="resume-btn"
+              >
+                VIEW CV
+              </a>
+            </div>
           </div>
           <img src={AboutImage} alt="Krenar Img" className="about-img" />
         </div>

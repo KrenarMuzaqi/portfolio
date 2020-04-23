@@ -26,12 +26,13 @@
       position: relative;
       font-size: $font-size-36;
       align-self: flex-start;
+      font-weight: normal;
 
       &::before {
         content: "";
         width: 5rem;
         height: 0.4rem;
-        background-color: $primary-text-col;
+        background-color: $blue;
         position: absolute;
         left: 0;
         bottom: -0.5rem;
@@ -59,18 +60,24 @@
       .btn {
         max-width: 50rem;
         width: 100%;
+        font-size: 1.6rem;
+        transition: all 0.3s;
+        margin-top: 3rem;
+        background-color: #008bbe;
+        padding: 1.2rem 3rem;
+        color: #fff;
+        border-radius: 0.4rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
         display: flex;
-        align-items: center;
         justify-content: center;
         border: 1px solid transparent;
-        transition: all 0.3s;
-        font-size: $font-size-16;
 
         &:hover {
           background-color: $white;
-          color: $primary-text-col;
-          border: 1px solid $primary-text-col;
-          font-weight: bold;
+          color: $blue;
+          border: 1px solid $blue;
         }
       }
     }

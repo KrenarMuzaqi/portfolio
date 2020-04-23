@@ -21,7 +21,7 @@ const Services = () => {
               alt="development icon img"
             />
             <h4 className="box-title">Web Development</h4>
-            <p className=" m-t-8 box-desc">
+            <p className=" m-t-16 box-desc">
               Able to create beautiful sites by using HTML, CSS, JS
             </p>
           </div>
@@ -32,7 +32,7 @@ const Services = () => {
               alt="responsive icon img"
             />
             <h4 className="box-title">Responsive design</h4>
-            <p className=" m-t-8 box-desc">
+            <p className=" m-t-16 box-desc">
               Able to create mobile responsive sites at a professional level
             </p>
           </div>
@@ -43,7 +43,7 @@ const Services = () => {
               alt="email icon img"
             />
             <h4 className="box-title"> Email Development</h4>
-            <p className="m-t-8 box-desc">
+            <p className="m-t-16 box-desc">
               Able to create HTML EMAILS quickly and effective
             </p>
           </div>
@@ -54,7 +54,7 @@ const Services = () => {
               alt="support icon img"
             />
             <h4 className="box-title">Strong support</h4>
-            <p className="m-t-8 box-desc">
+            <p className="m-t-16 box-desc">
               Able to communicate ideas in a brief way
             </p>
           </div>

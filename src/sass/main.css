@@ -214,11 +214,38 @@ a {
   display: inline-block;
   text-transform: uppercase;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.navbar-wrapper .navbar-links .nav-link--active {
+  color: #fff;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.navbar-wrapper .navbar-links .nav-link--active span {
+  position: relative;
+}
+
+.navbar-wrapper .navbar-links .nav-link--active span::before {
+  content: "";
+  width: 2rem;
+  height: 0.3rem;
+  background-color: #008bbe;
+  position: absolute;
+  left: 0.4rem;
+  bottom: -0.5rem;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-wrapper .navbar-links .nav-link--active span::before {
+    left: 0;
+  }
 }
 
 .navbar-wrapper .navbar-links .nav-link:hover {
-  opacity: 0.8;
+  color: #008bbe;
 }
 
 .navbar-wrapper .navbar-links .nav-link::before {
@@ -489,9 +516,11 @@ a {
 
 .header-content--text {
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
+  background-color: #191a1d;
+  padding: 4rem;
   border-radius: 0.4rem;
+  -webkit-box-shadow: 0 0 30px 0 #00000059;
+          box-shadow: 0 0 30px 0 #00000059;
 }
 
 .header-content--text .title {
@@ -529,11 +558,24 @@ a {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   margin-top: 3rem;
+  background-color: #008bbe;
+  padding: 1.2rem 3rem;
+  color: #fff;
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-content--text .buttons .btn:hover {
   background-color: #fff;
-  color: #000;
+  color: #008bbe;
 }
 
 .header-content--text .buttons .btn:not(:last-child) {
@@ -548,12 +590,14 @@ a {
 
 @media screen and (max-width: 768px) {
   .header-content--text {
+    max-width: 50rem;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 450px) {
   .header-content--text {
+    width: 100%;
     padding: 2rem 1rem;
   }
 }
@@ -662,13 +706,14 @@ a {
 .services-container .title {
   position: relative;
   font-size: 3.6rem;
+  font-weight: normal;
 }
 
 .services-container .title::before {
   content: "";
   width: 5rem;
   height: 0.4rem;
-  background-color: #202124;
+  background-color: #008bbe;
   position: absolute;
   left: 0;
   bottom: -0.5rem;
@@ -705,7 +750,7 @@ a {
           align-items: center;
   cursor: default;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
   background-color: #fff;
   -webkit-box-shadow: -6px -6px 20px white, 6px 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: -6px -6px 20px white, 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -713,10 +758,12 @@ a {
 
 .services-container .services-boxs--box .box-title {
   font-size: 2.4rem;
+  text-align: center;
 }
 
 .services-container .services-boxs--box .box-desc {
   font-size: 1.8rem;
+  text-align: center;
 }
 
 .services-container .services-boxs--box:hover {
@@ -733,7 +780,10 @@ a {
 
 .services-container .services-boxs--box .service-icon {
   width: 4rem;
-  margin-bottom: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  -webkit-filter: invert(52%) sepia(76%) saturate(6334%) hue-rotate(174deg) brightness(95%) contrast(101%);
+          filter: invert(52%) sepia(76%) saturate(6334%) hue-rotate(174deg) brightness(95%) contrast(101%);
 }
 
 .services-container .services-boxs--box .paragraph-14 {
@@ -805,13 +855,14 @@ a {
   font-size: 3.6rem;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  font-weight: normal;
 }
 
 .portfolio-content .title::before {
   content: "";
   width: 5rem;
   height: 0.4rem;
-  background-color: #202124;
+  background-color: #008bbe;
   position: absolute;
   left: 0;
   bottom: -0.5rem;
@@ -914,13 +965,14 @@ a {
   font-size: 3.6rem;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  font-weight: normal;
 }
 
 .testimonials-content .title::before {
   content: "";
   width: 5rem;
   height: 0.4rem;
-  background-color: #202124;
+  background-color: #008bbe;
   position: absolute;
   left: 0;
   bottom: -0.5rem;
@@ -1004,7 +1056,7 @@ a {
 
 .testimonials-content .slider .slick-slider .slick-next::before {
   font-size: 4rem;
-  color: #202124 !important;
+  color: #008bbe !important;
 }
 
 .testimonials-content .slider .slick-slider .slick-prev {
@@ -1017,11 +1069,16 @@ a {
 
 .testimonials-content .slider .slick-slider .slick-prev::before {
   font-size: 4rem;
-  color: #202124 !important;
+  color: #008bbe !important;
 }
 
 .testimonials-content .slider .slick-slider .slick-dots {
   bottom: 10rem;
+}
+
+.testimonials-content .slider .slick-slider .slick-dots li button::before {
+  font-size: 1rem;
+  color: #008bbe;
 }
 
 .testimonials-content .slider-box {
@@ -1036,7 +1093,7 @@ a {
   content: close-quote;
   font-size: 5rem;
   position: relative;
-  color: #202124;
+  color: #008bbe;
   line-height: 1rem;
   bottom: -3rem;
   right: -0.5rem;
@@ -1046,7 +1103,7 @@ a {
   content: open-quote;
   font-size: 5rem;
   position: relative;
-  color: #202124;
+  color: #008bbe;
   line-height: 2rem;
   bottom: -1.5rem;
   right: 0.5rem;

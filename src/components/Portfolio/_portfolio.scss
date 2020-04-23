@@ -25,12 +25,13 @@
       position: relative;
       font-size: $font-size-36;
       align-self: flex-start;
+      font-weight: normal;
 
       &::before {
         content: "";
         width: 5rem;
         height: 0.4rem;
-        background-color: $primary-text-col;
+        background-color: $blue;
         position: absolute;
         left: 0;
         bottom: -0.5rem;

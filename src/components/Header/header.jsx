@@ -40,23 +40,7 @@ const Header = () => (
             Learn More
             <i className="mdi mdi-transfer-down"></i>
           </a>
-          <a className="btn" href="mailto: krenarmuzaqi@gmail.com">
-            Contact
-            <i className="mdi mdi-email-outline"></i>
-          </a>
         </div>
-        {/* <div className="icons">
-          <a href="mailto:krenarmuzaqi@gmail.com" className="icons-box">
-            <i className="mdi mdi-email-outline"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/krenarmuzaqi/"
-            target="_blank"
-            className="icons-box"
-          >
-            <i className="mdi mdi-linkedin"></i>
-          </a>
-        </div> */}
       </div>
       <div className="header-content--img tooltip">
         <span className="tooltip-content">Let's talk!</span>

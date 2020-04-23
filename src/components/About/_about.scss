@@ -22,12 +22,13 @@
     .title {
       position: relative;
       font-size: $font-size-36;
+      font-weight: normal;
 
       &::before {
         content: "";
         width: 5rem;
         height: 0.4rem;
-        background-color: $primary-text-col;
+        background-color: $blue;
         position: absolute;
         left: 0;
         bottom: -0.5rem;
@@ -65,40 +66,31 @@
         }
       }
 
-      .resume-btn {
-        font-size: $font-size-14;
-        margin-top: 1.2rem;
-        transition: all 0.3s;
-        border: 1px solid transparent;
-        background-color: $primary-text-col;
-        color: $white;
-        padding: 1rem 1.6rem;
-        border-radius: 0.4rem;
-        margin-top: 1.6rem;
-        display: inline-block;
+      .btn-holder {
+        width: 100%;
+        height: auto;
+        display: flex;
 
-        .mdi {
-          font-size: 2rem;
-          margin-left: 0.8rem;
-          display: inline-block;
-          width: 2rem;
-          height: 2rem;
+        .resume-btn {
+          font-size: 1.6rem;
+          transition: all 0.3s;
+          margin-top: 3rem;
+          background-color: #008bbe;
+          padding: 1.2rem 3rem;
+          color: #fff;
+          border-radius: 0.4rem;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          border: 1px solid transparent;
 
-          &::before {
-            width: 2rem;
-            height: 2rem;
-            vertical-align: top;
+          &:hover {
+            background-color: $white;
+            color: $blue;
+            border: 1px solid $blue;
           }
-        }
-
-        &:hover {
-          background-color: #f2f2f2;
-          color: $primary-text-col;
-          border: 1px solid $primary-text-col;
-        }
-
-        &:hover .mdi {
-          color: $primary-text-col;
         }
       }
 

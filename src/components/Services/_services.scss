@@ -20,12 +20,13 @@
     .title {
       position: relative;
       font-size: $font-size-36;
+      font-weight: normal;
 
       &::before {
         content: "";
         width: 5rem;
         height: 0.4rem;
-        background-color: $primary-text-col;
+        background-color: $blue;
         position: absolute;
         left: 0;
         bottom: -0.5rem;
@@ -50,17 +51,19 @@
         align-items: center;
         cursor: default;
         border-radius: 1rem;
-        padding: 2rem;
+        padding: 2rem 2rem 4rem 2rem;
         background-color: $white;
         box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
           6px 6px 20px rgba(0, 0, 0, 0.1);
 
         .box-title {
           font-size: $font-size-24;
+          text-align: center;
         }
 
         .box-desc {
           font-size: $font-size-18;
+          text-align: center;
         }
 
         &:hover {
@@ -75,7 +78,10 @@
 
         .service-icon {
           width: 4rem;
-          margin-bottom: 1.2rem;
+          margin-top: 2rem;
+          margin-bottom: 3rem;
+          filter: invert(52%) sepia(76%) saturate(6334%) hue-rotate(174deg)
+            brightness(95%) contrast(101%);
         }
 
         .paragraph-14 {

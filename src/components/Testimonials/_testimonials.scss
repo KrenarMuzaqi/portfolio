@@ -27,12 +27,13 @@
       position: relative;
       font-size: $font-size-36;
       align-self: flex-start;
+      font-weight: normal;
 
       &::before {
         content: "";
         width: 5rem;
         height: 0.4rem;
-        background-color: $primary-text-col;
+        background-color: $blue;
         position: absolute;
         left: 0;
         bottom: -0.5rem;
@@ -97,7 +98,7 @@
 
           &::before {
             font-size: 4rem;
-            color: $primary-text-col !important;
+            color: $blue !important;
           }
         }
         .slick-prev {
@@ -109,12 +110,21 @@
 
           &::before {
             font-size: 4rem;
-            color: $primary-text-col !important;
+            color: $blue !important;
           }
         }
 
         .slick-dots {
           bottom: 10rem;
+
+          li {
+            button {
+              &::before {
+                font-size: 1rem;
+                color: $blue;
+              }
+            }
+          }
         }
       }
 
@@ -128,7 +138,7 @@
             content: close-quote;
             font-size: 5rem;
             position: relative;
-            color: $primary-text-col;
+            color: $blue;
             line-height: 1rem;
             bottom: -3rem;
             right: -0.5rem;
@@ -137,7 +147,7 @@
             content: open-quote;
             font-size: 5rem;
             position: relative;
-            color: $primary-text-col;
+            color: $blue;
             line-height: 2rem;
             bottom: -1.5rem;
             right: 0.5rem;
