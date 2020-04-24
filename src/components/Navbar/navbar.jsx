@@ -19,16 +19,12 @@ const Navbar = () => {
   };
 
   if (isNavOpen && width <= 1024) {
-    document.body.style.height = "95vh";
+    document.body.style.height = "100vh";
     document.body.style.overflowY = "hidden";
-    document.body.style.paddingRight = "6px";
-    console.log("disabled scroll of body");
   } else {
     document.body.style.height = "auto";
-    document.body.style.overflowY = "scroll";
+    document.body.style.overflowY = "unset";
     document.body.style.paddingRight = "0px";
-
-    console.log("enabled scroll of body");
   }
 
   return (
