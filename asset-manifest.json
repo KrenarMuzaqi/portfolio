@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.86437d30.chunk.css",
-    "main.js": "/static/js/main.9ae62723.chunk.js",
-    "main.js.map": "/static/js/main.9ae62723.chunk.js.map",
+    "main.css": "/static/css/main.912a7441.chunk.css",
+    "main.js": "/static/js/main.632cd1d0.chunk.js",
+    "main.js.map": "/static/js/main.632cd1d0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b47b2e06.js",
     "runtime-main.js.map": "/static/js/runtime-main.b47b2e06.js.map",
     "static/css/2.451bf2e4.chunk.css": "/static/css/2.451bf2e4.chunk.css",
     "static/js/2.61fe866d.chunk.js": "/static/js/2.61fe866d.chunk.js",
     "static/js/2.61fe866d.chunk.js.map": "/static/js/2.61fe866d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f8a7d723afd4a94d8dfe2ee793b3444c.js": "/precache-manifest.f8a7d723afd4a94d8dfe2ee793b3444c.js",
+    "precache-manifest.e88edbd0b7e96fc6f8bfaae05fc710ac.js": "/precache-manifest.e88edbd0b7e96fc6f8bfaae05fc710ac.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.451bf2e4.chunk.css.map": "/static/css/2.451bf2e4.chunk.css.map",
-    "static/css/main.86437d30.chunk.css.map": "/static/css/main.86437d30.chunk.css.map",
+    "static/css/main.912a7441.chunk.css.map": "/static/css/main.912a7441.chunk.css.map",
     "static/js/2.61fe866d.chunk.js.LICENSE.txt": "/static/js/2.61fe866d.chunk.js.LICENSE.txt",
     "static/media/about-img.jpg": "/static/media/about-img.035cce00.jpg",
     "static/media/carton-grey.4a6087c7.svg": "/static/media/carton-grey.4a6087c7.svg",
@@ -20,7 +20,7 @@
     "static/media/email-icon.svg": "/static/media/email-icon.cef8d2fe.svg",
     "static/media/endrit-gashi.jpg": "/static/media/endrit-gashi.2f06e07c.jpg",
     "static/media/facebook-icon.svg": "/static/media/facebook-icon.ab92ad6d.svg",
-    "static/media/_portfolio.scss": "/static/media/loading-animation.ee020ad8.png",
+    "static/media/_portfolio.scss": "/static/media/todolist.4d3bc445.PNG",
     "static/media/instagram-icon.svg": "/static/media/instagram-icon.09c66596.svg",
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.380d97a6.svg",
     "static/media/lirije-uka.jpg": "/static/media/lirije-uka.1b430fe9.jpg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.b47b2e06.js",
     "static/css/2.451bf2e4.chunk.css",
     "static/js/2.61fe866d.chunk.js",
-    "static/css/main.86437d30.chunk.css",
-    "static/js/main.9ae62723.chunk.js"
+    "static/css/main.912a7441.chunk.css",
+    "static/js/main.632cd1d0.chunk.js"
   ]
 }
