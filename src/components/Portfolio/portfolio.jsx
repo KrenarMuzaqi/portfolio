@@ -36,6 +36,24 @@ const Portfolio = () => {
           </div>
 
           <div className="portfolio--box" data-aos="fade-left">
+            <div className="portfolio-img todo-list_img"></div>
+            <div className="project-title">
+              <h1>Todo List</h1>
+              <span>React/HTML/SCSS</span>
+            </div>
+            <p className="project-description">My project</p>
+            <div className="project-btn">
+              <a
+                href="https://todo-list-km.netlify.app/"
+                target="_blank"
+                className="view-btn"
+              >
+                View
+              </a>
+            </div>
+          </div>
+
+          <div className="portfolio--box" data-aos="fade-left">
             <div className="portfolio-img loading-animation_img"></div>
             <div className="project-title">
               <h1>CodePen Components</h1>
