@@ -44,7 +44,7 @@ const Portfolio = () => {
             <p className="project-description">My project</p>
             <div className="project-btn">
               <a
-                href="https://budget-app-km.netlify.app/"
+                href="https://km-budget-app.netlify.app/"
                 target="_blank"
                 className="view-btn"
               >
