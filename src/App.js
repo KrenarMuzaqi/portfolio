@@ -6,8 +6,6 @@ import Loader from "./components/Loader/Loader";
 import Homepage from "./pages/homepage/homepage";
 import ThankYou from "./pages/thank-you/thank-you";
 
-import "./App.css";
-
 class App extends Component {
   state = {
     isLoading: true,
