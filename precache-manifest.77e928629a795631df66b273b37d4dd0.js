@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db73d4e1497f482e95761c149f21910e",
+    "revision": "91ba0839af32e2eaf9903cd1b957423f",
     "url": "/index.html"
   },
   {
-    "revision": "bdbccf602d9a8cfb68ed",
+    "revision": "9c54b9b055fe61572055",
     "url": "/static/css/2.451bf2e4.chunk.css"
   },
   {
-    "revision": "881ffda9cc4c55953d60",
-    "url": "/static/css/main.39013bee.chunk.css"
+    "revision": "e6a5e4960975bb2ee48a",
+    "url": "/static/css/main.afca85de.chunk.css"
   },
   {
-    "revision": "bdbccf602d9a8cfb68ed",
-    "url": "/static/js/2.61fe866d.chunk.js"
+    "revision": "9c54b9b055fe61572055",
+    "url": "/static/js/2.65abb9a9.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.61fe866d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.65abb9a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "881ffda9cc4c55953d60",
-    "url": "/static/js/main.7ed8c194.chunk.js"
+    "revision": "e6a5e4960975bb2ee48a",
+    "url": "/static/js/main.a59a1d42.chunk.js"
   },
   {
     "revision": "681e8bfa70a01378f04b",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4a6087c78e433eb47748752ce402475d",
     "url": "/static/media/carton-grey.4a6087c7.svg"
+  },
+  {
+    "revision": "550ea10b1c39764825094ead0b0576db",
+    "url": "/static/media/contact-manager.550ea10b.PNG"
   },
   {
     "revision": "2c0cb8992718615805bce6e78d19335f",
@@ -72,10 +76,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/lirije-uka.1b430fe9.jpg"
   },
   {
-    "revision": "ee020ad846dbdeae123af33134361ff6",
-    "url": "/static/media/loading-animation.ee020ad8.png"
-  },
-  {
     "revision": "5fd88e3a8eac8dac442825fa730d664c",
     "url": "/static/media/mkblack.5fd88e3a.svg"
   },
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2db62ab67c056a1e7f80f5be1a3e2c74",
     "url": "/static/media/muhamet-humolli.2db62ab6.jpg"
+  },
+  {
+    "revision": "6695af9986412e75985538255ca87866",
+    "url": "/static/media/not-found.6695af99.svg"
   },
   {
     "revision": "9e233dab7dba265a6deec9b21a30c48b",
