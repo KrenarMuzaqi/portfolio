@@ -72,15 +72,15 @@ const Portfolio = () => {
           </div>
 
           <div className="portfolio--box" data-aos="fade-left">
-            <div className="portfolio-img loading-animation_img"></div>
+            <div className="portfolio-img contact-manager_img"></div>
             <div className="project-title">
-              <h1>Loading Animation</h1>
-              <span>HTML/SCSS</span>
+              <h1>Contact Manager</h1>
+              <span>React/HTML/BOOTSTRAP</span>
             </div>
-            <p className="project-description">CodePen Components</p>
+            <p className="project-description">My project</p>
             <div className="project-btn">
               <a
-                href="https://codepen.io/krenarmuzaqi/pen/RwWpLXG?editors=1100"
+                href="https://contact-manager-km.netlify.app/#/"
                 target="_blank"
                 className="view-btn"
               >

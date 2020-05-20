@@ -5,6 +5,7 @@ import Loader from "./components/Loader/Loader";
 
 import Homepage from "./pages/homepage/homepage";
 import ThankYou from "./pages/thank-you/thank-you";
+import NotFound from "./pages/NotFound/NotFound";
 
 class App extends Component {
   state = {
@@ -29,6 +30,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Homepage} />}
               <Route exact path="/thankyou" component={ThankYou} />
+              <Route component={NotFound} />
             </Switch>
           </div>
         )}
