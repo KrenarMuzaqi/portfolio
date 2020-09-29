@@ -53,20 +53,20 @@
       justify-content: center;
 
       .portfolio--box {
-        .contact-manager_img {
-          background-image: url("../../assets/images/contact-manager.PNG");
-        }
-        .fylo-img {
-          background-image: url("../../assets/images/fylo-mockup.png");
-        }
+        // .fintess-prime_img {
+        //   background-image: url("../../assets/images/fitness-prime.png");
+        // }
+        // .fylo-img {
+        //   background-image: url("../../assets/images/fylo-mockup.png");
+        // }
 
-        .budget-app_img {
-          background-image: url("../../assets/images/budget-app.PNG");
-        }
+        // .budget-app_img {
+        //   background-image: url("../../assets/images/budget-app.PNG");
+        // }
 
-        .todo-list_img {
-          background-image: url("../../assets/images/todolist.PNG");
-        }
+        // .todo-list_img {
+        //   background-image: url("../../assets/images/todolist.PNG");
+        // }
         .portfolio-img {
           max-width: 100%;
           width: 100%;
@@ -112,10 +112,17 @@
           justify-content: center;
           margin-top: 2rem;
 
+          .view-btn-disabled {
+            cursor: no-drop !important;
+            color: rgb(136, 136, 136) !important;
+            background-color: rgb(204, 204, 204) !important;
+            pointer-events: none;
+          }
+
           .view-btn {
             font-size: 1.6rem;
             transition: all 0.3s;
-            background-color: #008bbe;
+            background-color: #55b7db;
             padding: 1.2rem 3rem;
             color: #fff;
             border-radius: 0.4rem;
