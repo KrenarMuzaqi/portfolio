@@ -24,7 +24,7 @@ const Portfolio = () => {
         </h1>
 
         <div className="portfolio-boxs">
-          <div className="portfolio--box" data-aos="fade-left">
+          <div className="portfolio--box" data-aos="fade-right">
             <div className="portfolio-img movement4_img">
               <img src={Movement4} alt="Movement4 img" />
             </div>
@@ -44,7 +44,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="portfolio--box" data-aos="fade-right">
+          <div className="portfolio--box" data-aos="fade-left">
             <div className="portfolio-img fylo-img">
               <img src={LibertyImg} alt="" />
             </div>
@@ -64,7 +64,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="portfolio--box" data-aos="fade-left">
+          <div className="portfolio--box" data-aos="fade-right">
             <div className="portfolio-img budget-app_img">
               <img src={MusicAppImg} alt="music app img" />
             </div>
@@ -84,7 +84,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="portfolio--box" data-aos="fade-right">
+          <div className="portfolio--box" data-aos="fade-left">
             <div className="portfolio-img ">
               <img src={FitnessPrimeImg} alt="Fitness Prime img" />
             </div>
@@ -104,7 +104,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="portfolio--box" data-aos="fade-left">
+          <div className="portfolio--box" data-aos="fade-right">
             <div className="portfolio-img fitness-prime_img">
               <img src={SecureVpnImg} alt="Secure VPN img" />
             </div>
@@ -124,7 +124,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-          <div className="portfolio--box" data-aos="fade-right">
+          <div className="portfolio--box" data-aos="fade-left">
             <div className="portfolio-img fitness-prime_img">
               <img src={Fylo} alt="Fylo img" />
             </div>
