@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import NotFoundSVG from "../../assets/images/not-found.svg";
+import NotFoundSVG from "./not-found.svg";
 
 import "./_not-found.scss";
 

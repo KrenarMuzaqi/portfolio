@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-import AboutImage from "../../assets/images/about-img.jpg";
+import AboutImage from "../assets/images/about-img.jpg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -24,7 +25,7 @@ const About = () => {
               Germany.
             </p>
             <p className="paragraph-16 m-t-8">
-              I have 1+ years of extensive professional experience and skills in
+              I have 3+ years of extensive professional experience and skills in
               HTML5, CSS3, Javascript, React, jQuery, Bootstrap 3 & 4,
               SASS/SCSS, BEM, 7-1 pattern, and converting PSD to HTML5 with keen
               attention to details. Always up for learning new things.
@@ -62,13 +63,13 @@ const About = () => {
             <p className="paragraph-14">(Oct. 2013 - Oct. 2019)</p>
 
             <div className="btn-holder">
-              <a
-                href="https://drive.google.com/open?id=13IA74DlxZIAsvUI1sr9pPxi5gwWYz7C-"
+              <Link
+                to="https://drive.google.com/open?id=13IA74DlxZIAsvUI1sr9pPxi5gwWYz7C-"
                 target="_blank"
                 className="resume-btn"
               >
                 View CV
-              </a>
+              </Link>
             </div>
           </div>
           <img

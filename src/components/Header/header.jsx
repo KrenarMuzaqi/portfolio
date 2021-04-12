@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 import { Link } from "react-scroll";
 
-import { ReactComponent as Photo } from "../../assets/images/carton-grey.svg";
+import { ReactComponent as Photo } from "../assets/images/carton-grey.svg";
 
 import "./_header.scss";
 

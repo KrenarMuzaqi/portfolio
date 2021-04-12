@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import ThankYouSVG from "../../assets/images/thank-you.svg";
+import ThankYouSVG from "./thank-you.svg";
 
 import "./_thank-you.scss";
 

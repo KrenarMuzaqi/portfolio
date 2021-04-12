@@ -3,10 +3,10 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import DevelopmentIcon from "../../assets/icons/web-development.svg";
-import ResponsiveIcon from "../../assets/icons/responsive-design.svg";
-import EmailIcon from "../../assets/icons/email-development.svg";
-import SupportIcon from "../../assets/icons/support.svg";
+import DevelopmentIcon from "../assets/icons/web-development.svg";
+import ResponsiveIcon from "../assets/icons/responsive-design.svg";
+import EmailIcon from "../assets/icons/email-development.svg";
+import SupportIcon from "../assets/icons/support.svg";
 
 import "./_services.scss";
 

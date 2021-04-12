@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 
 import { useCurrentWitdh } from "../../media-query/media-query";
 
-import { ReactComponent as LogoWhite } from "../../assets/images/mkwhite.svg";
-import { ReactComponent as LogoBlack } from "../../assets/images/mkblack.svg";
+import { ReactComponent as LogoWhite } from "../assets/images/mkwhite.svg";
+import { ReactComponent as LogoBlack } from "../assets/images/mkblack.svg";
 
 const Navbar = () => {
   const [isNavOpen, setNavOpen] = useState(false);

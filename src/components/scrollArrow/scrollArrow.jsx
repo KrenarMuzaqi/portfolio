@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import smoothscroll from "smoothscroll-polyfill";
 
-import scrollArrow from "../../assets/icons/scrollArrow.svg";
+import scrollArrow from "../assets/icons/scrollArrow.svg";
 import "./_scrollArrow.scss";
 
 const ScrollArrow = () => {

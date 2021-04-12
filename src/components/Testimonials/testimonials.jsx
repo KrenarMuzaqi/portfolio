@@ -9,11 +9,11 @@ import { useCurrentWitdh } from "../../media-query/media-query";
 
 import QUOTES_DATA from "./testimonials-data";
 
-import EndritGashiImg from "../../assets/images/endrit-gashi.jpg";
-import LirijeUka from "../../assets/images/lirije-uka.jpg";
-import QlirimAsllani from "../../assets/images/qlirim-asllani.jpg";
-import MuhametHumolli from "../../assets/images/muhamet-humolli.jpg";
-import QëndrimPllana from "../../assets/images/qëndrim-pllana.jpg";
+import EndritGashiImg from "../assets/images/endrit-gashi.jpg";
+import LirijeUka from "../assets/images/lirije-uka.jpg";
+import QlirimAsllani from "../assets/images/qlirim-asllani.jpg";
+import MuhametHumolli from "../assets/images/muhamet-humolli.jpg";
+import QëndrimPllana from "../assets/images/qëndrim-pllana.jpg";
 
 import "./_testimonials.scss";
 

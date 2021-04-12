@@ -1,18 +1,25 @@
 import React, { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import MusicAppImg from "../../assets/images/music-app-mockup.png";
-import LibertyImg from "../../assets/images/statue-of-liberty--mockup.png";
-import FitnessPrimeImg from "../../assets/images/fitness-prime.png";
-import SecureVpnImg from "../../assets/images/secure-vpn-mockup.png";
-import Movement4 from "../../assets/images/movement4-mockup.png";
-import Fylo from "../../assets/images/fylo-mockup.png";
+import MusicAppImg from "../assets/images/music-app-mockup.png";
+import LibertyImg from "../assets/images/statue-of-liberty--mockup.png";
+import FitnessPrimeImg from "../assets/images/fitness-prime.png";
+import SecureVpnImg from "../assets/images/secure-vpn-mockup.png";
+import Movement4 from "../assets/images/movement4-mockup.png";
+// import Fylo from "../assets/images/fylo-mockup.png";
+import Capture from "../assets/images/capure-project.png";
 
 import "./_portfolio.scss";
 
+import home from "../assets/images/capure-project.png";
+
 const Portfolio = () => {
+  const bg = {
+    backgroundImage: `url(${home})`,
+  };
+
   useEffect(() => {
     Aos.init({ duration: 1000, once: true });
   }, []);
@@ -26,6 +33,25 @@ const Portfolio = () => {
         <div className="portfolio-boxs">
           <div className="portfolio--box" data-aos="fade-right">
             <div className="portfolio-img movement4_img">
+              <img src={Capture} alt="Capture img" />
+            </div>
+            <div className="project-title">
+              <h1>Capture</h1>
+              <span>React / Framer Motion / styled-components</span>
+            </div>
+            <p className="project-description">Project</p>
+            <div className="project-btn">
+              <Link
+                to="https://caputure-web.netlify.app/"
+                target="_blank"
+                className="view-btn "
+              >
+                View
+              </Link>
+            </div>
+          </div>
+          <div className="portfolio--box" data-aos="fade-left">
+            <div className="portfolio-img movement4_img">
               <img src={Movement4} alt="Movement4 img" />
             </div>
             <div className="project-title">
@@ -34,17 +60,17 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Upwork Project</p>
             <div className="project-btn">
-              <a
+              <Link
                 href="https://www.movement4.com.au/"
                 target="_blank"
                 className="view-btn "
               >
                 View
-              </a>
+              </Link>
             </div>
           </div>
 
-          <div className="portfolio--box" data-aos="fade-left">
+          <div className="portfolio--box" data-aos="fade-right">
             <div className="portfolio-img fylo-img">
               <img src={LibertyImg} alt="" />
             </div>
@@ -54,17 +80,17 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Upwork Project</p>
             <div className="project-btn">
-              <a
+              <Link
                 href="https://statue-of-liberty-tour.netlify.app/"
                 target="_blank"
                 className="view-btn"
               >
                 View
-              </a>
+              </Link>
             </div>
           </div>
 
-          <div className="portfolio--box" data-aos="fade-right">
+          <div className="portfolio--box" data-aos="fade-left">
             <div className="portfolio-img budget-app_img">
               <img src={MusicAppImg} alt="music app img" />
             </div>
@@ -74,18 +100,18 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Upwork Project</p>
             <div className="project-btn">
-              <a
+              <Link
                 href="https://music-app-km.netlify.app/"
                 target="_blank"
                 className="view-btn "
               >
                 View
-              </a>
+              </Link>
             </div>
           </div>
 
-          <div className="portfolio--box" data-aos="fade-left">
-            <div className="portfolio-img ">
+          <div className="portfolio--box" data-aos="fade-right">
+            <div style={{ bg }} className="portfolio-img fintess-prime_img">
               <img src={FitnessPrimeImg} alt="Fitness Prime img" />
             </div>
             <div className="project-title">
@@ -94,17 +120,17 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Upwork Project</p>
             <div className="project-btn">
-              <a
+              <Link
                 href="https://fitness-prime.netlify.app/"
                 target="_blank"
                 className="view-btn "
               >
                 View
-              </a>
+              </Link>
             </div>
           </div>
 
-          <div className="portfolio--box" data-aos="fade-right">
+          <div className="portfolio--box" data-aos="fade-left">
             <div className="portfolio-img fitness-prime_img">
               <img src={SecureVpnImg} alt="Secure VPN img" />
             </div>
@@ -115,16 +141,16 @@ const Portfolio = () => {
             <p className="project-description">Upwork Project</p>
 
             <div className="project-btn">
-              <a
+              <Link
                 href="https://secure-vpn.netlify.app/"
                 target="_blank"
                 className="view-btn"
               >
                 View
-              </a>
+              </Link>
             </div>
           </div>
-          <div className="portfolio--box" data-aos="fade-left">
+          {/* <div className="portfolio--box" data-aos="fade-left">
             <div className="portfolio-img fitness-prime_img">
               <img src={Fylo} alt="Fylo img" />
             </div>
@@ -143,7 +169,7 @@ const Portfolio = () => {
                 View
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
