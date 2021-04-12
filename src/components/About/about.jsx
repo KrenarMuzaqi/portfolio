@@ -63,13 +63,13 @@ const About = () => {
             <p className="paragraph-14">(Oct. 2013 - Oct. 2019)</p>
 
             <div className="btn-holder">
-              <Link
-                to="https://drive.google.com/file/d/1h-i9wV4nS2DIHRZdUVZBwv6vAo0L7ISt/view?usp=sharing"
+              <a
+                href="https://drive.google.com/file/d/1h-i9wV4nS2DIHRZdUVZBwv6vAo0L7ISt/view?usp=sharing"
                 target="_blank"
                 className="resume-btn"
               >
                 View CV
-              </Link>
+              </a>
             </div>
           </div>
           <img

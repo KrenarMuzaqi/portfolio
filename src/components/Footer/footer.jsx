@@ -27,15 +27,15 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-icons" data-aos="zoom-in">
-          <Link
-            to="https://www.facebook.com/krenar.muzaqi"
+          <a
+            href="https://www.facebook.com/krenar.muzaqi"
             target="_blank"
             className="footer-icons--link"
           >
             <img src={FbIcon} alt="Facebook img" className="footer-icon" />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/krenarmuzaqi/"
+          </a>
+          <a
+            href="https://www.linkedin.com/in/krenarmuzaqi/"
             target="_blank"
             className="footer-icons--link"
           >
@@ -44,32 +44,32 @@ const Footer = () => {
               alt="Linkedin img"
               className="footer-icon"
             />
-          </Link>
-          <Link
-            to="https://www.instagram.com/krenar.dev/"
+          </a>
+          <a
+            href="https://www.instagram.com/krenar.codes/"
             target="_blank"
             className="footer-icons--link"
           >
             <img src={IgIcon} alt="Instagram img" className="footer-icon" />
-          </Link>
-          <Link
-            to="https://twitter.com/KrenarMuzaqi"
+          </a>
+          <a
+            href="https://twitter.com/KrenarMuzaqi"
             target="_blank"
             className="footer-icons--link"
           >
             <img src={TwitterIcon} alt="Twitter img" className="footer-icon" />
-          </Link>
-          <Link
-            to="mailto:krenarmuzaqi@gmail.com"
+          </a>
+          <a
+            href="mailto:krenarmuzaqi@gmail.com"
             target="_blank"
             className="footer-icons--link"
           >
             <img src={EmailIcon} alt="Email img" className="footer-icon" />
-          </Link>
+          </a>
         </div>
         <div className="footer-copyright" data-aos="zoom-in">
           <p className="paragraph-12">
-            Designed and built with ❤ by Krenar Muzaqi © 2020
+            Designed and built with ❤ by Krenar Muzaqi © 2021
           </p>
         </div>
       </div>
