@@ -5,7 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import { ReactComponent as LogoWhite } from "../assets/images/mkwhite.svg";
-import FbIcon from "../assets/icons/facebook-icon.svg";
+import YTIcon from "../assets/icons/youtube.svg";
 import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
 import TwitterIcon from "../assets/icons/twitter-icon.svg";
 import IgIcon from "../assets/icons/instagram-icon.svg";
@@ -28,11 +28,15 @@ const Footer = () => {
         </div>
         <div className="footer-icons" data-aos="zoom-in">
           <a
-            href="https://www.facebook.com/krenar.muzaqi"
+            href="https://www.youtube.com/channel/UCQdFXJyd_iWIDJpCsRhaj6g"
             target="_blank"
             className="footer-icons--link"
           >
-            <img src={FbIcon} alt="Facebook img" className="footer-icon" />
+            <img
+              src={YTIcon}
+              alt="Youtube img"
+              className="footer-icon yt-icon"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/krenarmuzaqi/"
