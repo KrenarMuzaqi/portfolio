@@ -64,7 +64,7 @@ const About = () => {
 
             <div className="btn-holder">
               <Link
-                to="https://drive.google.com/open?id=13IA74DlxZIAsvUI1sr9pPxi5gwWYz7C-"
+                to="https://drive.google.com/file/d/1h-i9wV4nS2DIHRZdUVZBwv6vAo0L7ISt/view?usp=sharing"
                 target="_blank"
                 className="resume-btn"
               >
