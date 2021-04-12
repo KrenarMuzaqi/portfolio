@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c953c2b6648f786bdb17312651499a01",
+    "revision": "7d4dc258a11ee82a8b071990ed099c92",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.451bf2e4.chunk.css"
   },
   {
-    "revision": "1da92f586c9dcd335330",
-    "url": "/static/css/main.3eb16672.chunk.css"
+    "revision": "dbd1cb1aa2533ca2e375",
+    "url": "/static/css/main.3a37cfaf.chunk.css"
   },
   {
     "revision": "18ba45855ca8ba65addc",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3d4278ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1da92f586c9dcd335330",
-    "url": "/static/js/main.8689ab53.chunk.js"
+    "revision": "dbd1cb1aa2533ca2e375",
+    "url": "/static/js/main.9928df29.chunk.js"
   },
   {
     "revision": "681e8bfa70a01378f04b",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2f06e07cc90a4918180ca729e98d3070",
     "url": "/static/media/endrit-gashi.2f06e07c.jpg"
-  },
-  {
-    "revision": "ab92ad6d992f203adfc29fddf0efd3e6",
-    "url": "/static/media/facebook-icon.ab92ad6d.svg"
   },
   {
     "revision": "82e2cb23483c3adbfd0d3f0d73afc9d2",
@@ -134,5 +130,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9d30345fb9082da65ff580bf3f358d3e",
     "url": "/static/media/web-development.9d30345f.svg"
+  },
+  {
+    "revision": "0f519090d00fbd2b11105f33df82a056",
+    "url": "/static/media/youtube.0f519090.svg"
   }
 ]);

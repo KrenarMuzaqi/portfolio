@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3eb16672.chunk.css",
-    "main.js": "/static/js/main.8689ab53.chunk.js",
-    "main.js.map": "/static/js/main.8689ab53.chunk.js.map",
+    "main.css": "/static/css/main.3a37cfaf.chunk.css",
+    "main.js": "/static/js/main.9928df29.chunk.js",
+    "main.js.map": "/static/js/main.9928df29.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b47b2e06.js",
     "runtime-main.js.map": "/static/js/runtime-main.b47b2e06.js.map",
     "static/css/2.451bf2e4.chunk.css": "/static/css/2.451bf2e4.chunk.css",
     "static/js/2.3d4278ae.chunk.js": "/static/js/2.3d4278ae.chunk.js",
     "static/js/2.3d4278ae.chunk.js.map": "/static/js/2.3d4278ae.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.883ef92197655496f3d8fbb2f577b2c4.js": "/precache-manifest.883ef92197655496f3d8fbb2f577b2c4.js",
+    "precache-manifest.54bdc6f31ed479c4b5baf155e22c74b5.js": "/precache-manifest.54bdc6f31ed479c4b5baf155e22c74b5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.451bf2e4.chunk.css.map": "/static/css/2.451bf2e4.chunk.css.map",
-    "static/css/main.3eb16672.chunk.css.map": "/static/css/main.3eb16672.chunk.css.map",
+    "static/css/main.3a37cfaf.chunk.css.map": "/static/css/main.3a37cfaf.chunk.css.map",
     "static/js/2.3d4278ae.chunk.js.LICENSE.txt": "/static/js/2.3d4278ae.chunk.js.LICENSE.txt",
     "static/media/about-img.jpg": "/static/media/about-img.035cce00.jpg",
     "static/media/capure-project.png": "/static/media/capure-project.20b10cbd.png",
@@ -20,7 +20,6 @@
     "static/media/email-development.svg": "/static/media/email-development.2c0cb899.svg",
     "static/media/email-icon.svg": "/static/media/email-icon.cef8d2fe.svg",
     "static/media/endrit-gashi.jpg": "/static/media/endrit-gashi.2f06e07c.jpg",
-    "static/media/facebook-icon.svg": "/static/media/facebook-icon.ab92ad6d.svg",
     "static/media/fitness-prime.png": "/static/media/fitness-prime.82e2cb23.png",
     "static/media/instagram-icon.svg": "/static/media/instagram-icon.09c66596.svg",
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.380d97a6.svg",
@@ -40,13 +39,14 @@
     "static/media/support.svg": "/static/media/support.f1841151.svg",
     "static/media/thank-you.svg": "/static/media/thank-you.7cce7a3a.svg",
     "static/media/twitter-icon.svg": "/static/media/twitter-icon.88c38bdc.svg",
-    "static/media/web-development.svg": "/static/media/web-development.9d30345f.svg"
+    "static/media/web-development.svg": "/static/media/web-development.9d30345f.svg",
+    "static/media/youtube.svg": "/static/media/youtube.0f519090.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b47b2e06.js",
     "static/css/2.451bf2e4.chunk.css",
     "static/js/2.3d4278ae.chunk.js",
-    "static/css/main.3eb16672.chunk.css",
-    "static/js/main.8689ab53.chunk.js"
+    "static/css/main.3a37cfaf.chunk.css",
+    "static/js/main.9928df29.chunk.js"
   ]
 }
