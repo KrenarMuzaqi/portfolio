@@ -41,13 +41,13 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Project</p>
             <div className="project-btn">
-              <Link
-                to="https://caputure-web.netlify.app/"
+              <a
+                href="https://caputure-web.netlify.app/"
                 target="_blank"
                 className="view-btn "
               >
                 View
-              </Link>
+              </a>
             </div>
           </div>
           <div className="portfolio--box" data-aos="fade-left">
@@ -60,13 +60,13 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Upwork Project</p>
             <div className="project-btn">
-              <Link
+              <a
                 href="https://www.movement4.com.au/"
                 target="_blank"
                 className="view-btn "
               >
                 View
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -80,13 +80,13 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Upwork Project</p>
             <div className="project-btn">
-              <Link
+              <a
                 href="https://statue-of-liberty-tour.netlify.app/"
                 target="_blank"
                 className="view-btn"
               >
                 View
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -100,13 +100,13 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Upwork Project</p>
             <div className="project-btn">
-              <Link
+              <a
                 href="https://music-app-km.netlify.app/"
                 target="_blank"
                 className="view-btn "
               >
                 View
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -120,13 +120,13 @@ const Portfolio = () => {
             </div>
             <p className="project-description">Upwork Project</p>
             <div className="project-btn">
-              <Link
+              <a
                 href="https://fitness-prime.netlify.app/"
                 target="_blank"
                 className="view-btn "
               >
                 View
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -141,13 +141,13 @@ const Portfolio = () => {
             <p className="project-description">Upwork Project</p>
 
             <div className="project-btn">
-              <Link
+              <a
                 href="https://secure-vpn.netlify.app/"
                 target="_blank"
                 className="view-btn"
               >
                 View
-              </Link>
+              </a>
             </div>
           </div>
           {/* <div className="portfolio--box" data-aos="fade-left">
